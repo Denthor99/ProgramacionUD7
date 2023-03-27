@@ -18,7 +18,7 @@ public class CalculaduraUsuarioFinal {
         System.out.println("c. División");
         System.out.println("d. Multiplicación");
         System.out.println("e. Potencia");
-        System.out.println("f. Resto división");
+        System.out.println("f. Modulo");
         tipoOperacion=calculo.next().charAt(0);
 
         switch (tipoOperacion){

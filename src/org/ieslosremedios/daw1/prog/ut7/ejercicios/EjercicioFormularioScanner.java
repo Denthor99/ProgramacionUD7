@@ -12,7 +12,7 @@ public class EjercicioFormularioScanner {
         char genero=datos.next().charAt(0);
         System.out.println();
         System.out.println("Introduce un numero de telefono: ");
-        int tlfno=datos.nextInt();
+        Long tlfno=datos.nextLong();
         System.out.println();
         System.out.println("------------------------------------");
         System.out.println();

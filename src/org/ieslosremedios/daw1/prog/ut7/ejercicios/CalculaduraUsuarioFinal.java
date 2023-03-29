@@ -4,7 +4,7 @@ import java.util.*;
 public class CalculaduraUsuarioFinal {
     public static void main(String[] args) {
         //declaramos las variable necesarias pora el ejercicio
-        Integer a,b,resultado;
+        Integer a,b,resultado=0;
         char tipoOperacion;
         Scanner calculo=new Scanner(System.in);
         System.out.println("CALCULADORA BASICA VERSION 2K23");
@@ -24,31 +24,26 @@ public class CalculaduraUsuarioFinal {
         switch (tipoOperacion){
             case 'a':
                 resultado=a+b;
-                System.out.println("El resultado de esta operación es "+resultado);
                 break;
             case 'b':
                 resultado=a-b;
-                System.out.println("El resultado de esta operación es "+resultado);
                 break;
             case 'c':
                 resultado=a/b;
-                System.out.println("El resultado de esta operación es "+resultado);
                 break;
             case 'd':
                 resultado=a*b;
-                System.out.println("El resultado de esta operación es "+resultado);
                 break;
             case 'e':
                 resultado=(int)Math.pow(a,b);
-                System.out.println("El resultado de esta operación es "+resultado);
                 break;
             case 'f':
                 resultado=a%b;
-                System.out.println("El resultado de esta operación es "+resultado);
                 break;
             default:
                 System.out.println("Introduce una operación que sea permitida");
                 break;
         }
+        System.out.println("El resultado de esta operación es "+resultado);
     }
 }

@@ -9,5 +9,6 @@ public class Apuntes29Marzo {
      * CLASE CONSOLE (en java.IO)
      * Es una alternativa a System.out
      * Cuenta con una serie de metodos
+     * No podemos ejecutarla con un IDE, por lo que lo usaremos por consola
      * */
 }

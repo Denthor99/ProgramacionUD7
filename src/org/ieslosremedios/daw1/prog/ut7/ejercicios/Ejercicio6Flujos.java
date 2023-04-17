@@ -3,6 +3,6 @@ import java.io.*;
 public class Ejercicio6Flujos {
     public static void main(String[] args) {
         // Ejemplo FileOutputStream
-        FileOutputStream fuera = new FileOutputStream("salida.txt");
+       // FileOutputStream fuera = new FileOutputStream("salida.txt");
     }
 }
